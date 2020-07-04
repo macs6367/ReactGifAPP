@@ -6,7 +6,7 @@ export const GifApp = () => {
 
   return (
     <div>
-      <h2 style={{textAlign:"center"}}>Gifs APP</h2>
+      <h2 style={{textAlign:"center", color: "#FFF"}}>Gifs APP</h2>
       <AddCategory setCategories={setCategories} />
       <ol>
         {categories.map((category) => (
